@@ -14,13 +14,14 @@ span {
 	color: #bc4434;
 }
 
-body {	
-	
-}
 
 main {
 	margin-top: 80px;
 	margin-bottom: 20px;
+}
+
+body {
+	background-color: #eeefe5;
 }
 
 .position-fixed {
@@ -35,7 +36,31 @@ main {
 }
 
 #logo-title {
-	font-family: 'Bitter', serif; 
+	font-family: 'Bitter', serif;
+	font-size: 16px;
+	text-transform: uppercase; 
+	margin-bottom:25px;
+}
+
+.base-card {
+	padding: 30px;
+    margin: 20px;
+    -webkit-box-shadow: 1px 6px 3px 2px #dedece;
+	-moz-box-shadow: 1px 6px 3px 2px #dedece;
+	box-shadow: 0px 5px 25px 6px #dedece;
+	border: 1px solid #dedece;
+	background-image: url("./assets/imgs/cardPattern.png");	
+}
+
+.card>h2 {
+	font-size: 50px;
+	color: #bc4434;
+	font-family: 'Jua', sans-serif;
+}
+.card>p {
+	text-align: justify;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
 }
 
 .p-base {
@@ -95,6 +120,7 @@ main {
 	text-decoration: none;
 	color: #f0f3f1;	
 	text-transform: uppercase;
+	font-family: 'Bitter', serif; 
 }
 
 .menu-buttons>li>a:hover, .footer-buttons>li>a:hover {
