@@ -63,8 +63,17 @@ body {
 	height: 250px;
 }
 
-.icons {
+.icons>li>a {	
+	text-decoration: none;
+	color: #f0f3f1;	
+	text-transform: uppercase;
+	font-family: 'Bitter', serif; 
 	font-size: 30px;
+}
+
+.icons>li {
+	padding-left: 10px;
+    padding-right: 10px;
 }
 
 .base-card {
