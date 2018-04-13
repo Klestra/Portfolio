@@ -111,6 +111,10 @@ body {
 	flex-direction: column;
 }
 
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
 .menu-buttons>li, .footer-buttons>li {
 	padding-left: 10px;
 	padding-right: 10px;
@@ -131,7 +135,7 @@ body {
 
 }
 
-}.menu-buttons>li>a, .footer-buttons>li>a {
+.menu-buttons>li>a, .footer-buttons>li>a {
     padding-left: 10px;
     padding-right: 10px;
 }
