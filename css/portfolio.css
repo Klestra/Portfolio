@@ -10,7 +10,7 @@ header, footer {
 
 .rond {
 	font-size: 60px;
-	color: #8c8c8c;
+	color: #0d0d0d;
 }
 
 
@@ -20,7 +20,9 @@ main {
 }
 
 body {
-	background-color: #bfbfbf;
+	background-image: url("../assets/imgs/bimg.jpg");
+	background-attachment: fixed;	
+	background-repeat: no-repeat;
 
 }
 
@@ -36,25 +38,25 @@ body {
 }
 
 .title>div>h1 {
-	padding-top: 300px;
+	padding-top: 100px;
 	font-family: 'Abril Fatface', cursive;
 	font-size: 60px;
 	text-transform: uppercase; 
 	letter-spacing: 3px;
 	margin-bottom:25px;
-	color: #252a30;
+	color: #21272c;
 }
 
 .title>div>h2 {
 	padding: 0px;
 	margin: 0px;
-	padding-bottom: 300px;
+	padding-bottom: 500px;
 	font-family: 'Abril Fatface', cursive;
 	font-size: 50px;
 	text-transform: uppercase;
 	letter-spacing: 2px;
 	margin-bottom:25px;
-	color: #252a30;
+	color: #21272c;
 }
 .icons>li>a {	
 	text-decoration: none;
