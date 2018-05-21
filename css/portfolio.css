@@ -49,7 +49,7 @@ body {
 .title>div>h2 {
 	padding: 0px;
 	margin: 0px;
-	padding-bottom: 550px;
+	padding-bottom: 600px;
 	font-family: 'Abril Fatface', cursive;
 	font-size: 50px;
 	text-transform: uppercase;
@@ -136,10 +136,24 @@ body {
 	text-align: justify;
 }
 
+.form {
+	margin: 20px;
+	width: 100%;
+	height: 700px;
+	flex-wrap: wrap;
+	text-align: left;
+	padding: 10px;   
+	background-image: url("../assets/imgs/cardPattern.png");  
+}
+
 .mail {
-	color: #737373;
-	size: 20px;
 	text-decoration: none;
+	color: #0d0d0d;
+	font-size: 30px;
+}
+
+.sectionMail {
+	width: 89.4vw;
 }
 
 .full-height {
@@ -268,6 +282,10 @@ ul.flex-center {
 	.general {
 		width: 500px;
 	}
+
+	.sectionMail {
+		width: 90.2vw;
+	}
 }
 
 @media screen and (max-width: 1330px) {
@@ -278,6 +296,10 @@ ul.flex-center {
 
 	.general {
 		width: 480px;
+	}
+
+	.sectionMail {
+		width: 91.5vw;
 	}
 }
 
@@ -312,6 +334,10 @@ ul.flex-center {
 	.skill>div>ul>li {
 		font-size: 15px;
 	}
+
+	.sectionMail {
+		width: 93vw;
+	}
 }
 
 @media screen and (max-width: 915px) {
@@ -330,6 +356,10 @@ ul.flex-center {
 	.skill {
 		flex-direction: column;
 		align-content: center;
+	}
+
+	.sectionMail {
+		width: 94.5vw;
 	}
 }
 
