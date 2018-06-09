@@ -9,3 +9,4 @@
      'X-Mailer: PHP/' . phpversion();
     mail($to, $name, $last, $subject, $message, $headers);
     header('Location: /index.html');
+    
