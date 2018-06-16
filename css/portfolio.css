@@ -6,6 +6,7 @@ header, footer {
 	height: 60px;
 	background-color: #252a30;
 	color: #f0f3f1;
+	z-index: 10;
 }
 
 .rond {
@@ -108,8 +109,7 @@ fieldset {
 	margin-bottom: 120px;
 	border: 1px solid #cccccc;
 	background-image: url("../assets/imgs/cardPattern.png");
-	filter: brightness(96%);
-	z-index: -10;	
+	filter: brightness(96%);	
 }
 
 .base-card-title {
@@ -217,6 +217,35 @@ fieldset {
 
 .project:hover .hidden {
 	opacity: 1;
+}
+
+.hidden>p {
+	font-family: 'Gentium Book Basic', serif;
+	color: white;
+	font-size: 30px;
+}
+
+.hidden>h3 {
+	font-family: 'Gentium Book Basic', serif;
+	color: white;
+	font-size: 35px;
+	text-decoration: underline;
+}
+
+.hidden>ul>li {
+	font-family: 'Gentium Book Basic', serif;
+	color: white;
+	font-size: 25px;
+	margin: 10px;
+	list-style: none;
+}
+
+.project-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 8%;
+	
 }
 
 .inherit {
