@@ -129,7 +129,7 @@ fieldset {
 }
 .card>p {
 	text-align: justify;
-	font-size: 30px;
+	font-size: 25px;
 	color: #888888;
 	font-family: 'Chivo', sans-serif;
 }
@@ -180,6 +180,12 @@ fieldset {
 
 .mail {
 	width: 93.3%;
+}
+
+.mail>div>a {
+	font-size: 40px;
+	color: #888888;
+	font-family: 'Chivo', sans-serif;
 }
 
 .section-projects {
